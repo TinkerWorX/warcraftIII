@@ -4,6 +4,9 @@
 #include "Vector2.h"
 #include "Vector3.h"
 
+// basic game stuff
+#include "enums.h"
+
 // advanced stuff
 #include "AbilDataCacheNode.h"
 #include "AbilityLevelData.h"
