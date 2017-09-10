@@ -1,6 +1,6 @@
 #include "CAgent_VTable.h"
 
-typedef _DWORD (__thiscall* pCWidget__Function)(void* widget);
+typedef int (__thiscall* pCWidget__Function)(void* widget);
 typedef void (__thiscall* pCWidget__SetLife)(void* widget, float* life);
 
 struct CWidget_VTable { /* size = 76 */
