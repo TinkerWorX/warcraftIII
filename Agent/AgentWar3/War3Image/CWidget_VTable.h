@@ -57,4 +57,5 @@ struct CWidget_VTable { /* size = 76 */
     pCWidget__SetLife setLife;
     pCWidget__Function func74;
     pCWidget__Function func75;
-    pCWidget__Function func76;};
+    pCWidget__Function func76;
+};
