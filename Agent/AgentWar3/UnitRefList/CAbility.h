@@ -8,7 +8,7 @@ Class Size: 108  (48+60)
 */
 class CAbility : CUnitRefList {
 public:
-   CUnit* owner; // The CUnit that has the ability.
+    CUnit* owner; // The CUnit that has the ability.
     int abilityId; // The ability id.
     int field_38;
     int field_3C;
@@ -17,7 +17,7 @@ public:
     int field_48;
     int field_4C;
     int field_50;
-   AbilDataCacheNode* data; // The ability data cache.
+    AbilDataCacheNode* data; // The ability data cache.
     int field_58;
     int field_5C;
     int field_60;
