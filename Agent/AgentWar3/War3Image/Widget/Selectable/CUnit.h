@@ -43,7 +43,7 @@ public:
     int field_D4;
     int field_D8;
     int field_DC;
-    int field_E0;
+    float defense;
     int field_E4;
     int field_E8;
     int field_EC;
@@ -109,11 +109,11 @@ public:
     int field_1DC; // Used to fetch additional abilities.
     int field_1E0; // Used to fetch additional abilities.
     int field_1E4;
-   void* attackAbility;
-   void* moveAbility;
-   void* heroAbility;
-   void* buildAbility;
-   void* inventoryAbility;
+    void* attackAbility;
+    void* moveAbility;
+    void* heroAbility;
+    void* buildAbility;
+    void* inventoryAbility;
     int field_1FC;
     int field_200;
     int field_204;
@@ -148,7 +148,7 @@ public:
     int field_278;
     int userData;
     int field_280;
-   Vector3 position; // 12 bytes, [284, 288, 28C]
+    Vector3 position; // 12 bytes, [284, 288, 28C]
     int field_290;
     int field_294;
     int field_298;
