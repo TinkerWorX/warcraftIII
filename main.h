@@ -14,3 +14,4 @@
 
 // advanced game stuff
 #include "agents.h"
+#include "CGameUI.h"
