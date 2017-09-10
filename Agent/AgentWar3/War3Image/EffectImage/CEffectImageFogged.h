@@ -8,6 +8,5 @@ Class Size: 136  (132+4)
 */
 class CEffectImageFogged : CEffectImage {
 public:
-   int field_84;
-
+    int field_84;
 };

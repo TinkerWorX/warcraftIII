@@ -8,6 +8,5 @@ Class Size: 60  (56+4)
 */
 class CUnitTrainStartEventData : CUnitTrainEventDataBase {
 public:
-   int field_38;
-
+    int field_38;
 };

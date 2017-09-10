@@ -8,6 +8,5 @@ Class Size: 68  (64+4)
 */
 class CStateEventReg : CVariableEventReg {
 public:
-   int field_40;
-
+    int field_40;
 };

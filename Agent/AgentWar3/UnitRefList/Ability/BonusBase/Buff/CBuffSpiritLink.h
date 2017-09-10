@@ -8,7 +8,6 @@ Class Size: 212  (204+8)
 */
 class CBuffSpiritLink : CBuff {
 public:
-   int field_CC;
-   int field_D0;
-
+    int field_CC;
+    int field_D0;
 };

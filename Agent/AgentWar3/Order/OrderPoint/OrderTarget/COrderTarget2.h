@@ -8,8 +8,7 @@ Class Size: 148  (136+12)
 */
 class COrderTarget2 : COrderTarget {
 public:
-   int field_88;
-   int field_8C;
-   int field_90;
-
+    int field_88;
+    int field_8C;
+    int field_90;
 };

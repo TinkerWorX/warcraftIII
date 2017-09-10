@@ -8,9 +8,8 @@ Class Size: 436  (420+16)
 */
 class CAbilityPhoenix : CAbilityMorph {
 public:
-   int field_1A4;
-   int field_1A8;
-   int field_1AC;
-   int field_1B0;
-
+    int field_1A4;
+    int field_1A8;
+    int field_1AC;
+    int field_1B0;
 };

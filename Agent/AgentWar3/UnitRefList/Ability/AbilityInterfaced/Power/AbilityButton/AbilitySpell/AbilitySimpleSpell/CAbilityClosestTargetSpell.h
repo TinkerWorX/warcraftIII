@@ -8,6 +8,5 @@ Class Size: 296  (292+4)
 */
 class CAbilityClosestTargetSpell : CAbilitySimpleSpell {
 public:
-   int field_124;
-
+    int field_124;
 };

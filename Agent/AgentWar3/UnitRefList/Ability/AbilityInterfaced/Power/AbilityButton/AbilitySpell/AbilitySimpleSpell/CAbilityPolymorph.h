@@ -8,7 +8,6 @@ Class Size: 300  (292+8)
 */
 class CAbilityPolymorph : CAbilitySimpleSpell {
 public:
-   int field_124;
-   int field_128;
-
+    int field_124;
+    int field_128;
 };

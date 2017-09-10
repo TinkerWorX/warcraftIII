@@ -8,7 +8,6 @@ Class Size: 180  (172+8)
 */
 class CMissileThunderBolt : CMissile {
 public:
-   int field_AC;
-   int field_B0;
-
+    int field_AC;
+    int field_B0;
 };

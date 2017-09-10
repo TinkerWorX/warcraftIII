@@ -8,6 +8,5 @@ Class Size: 52  (48+4)
 */
 class CTask : CUnitRefList {
 public:
-   int field_30;
-
+    int field_30;
 };

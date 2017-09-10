@@ -8,6 +8,5 @@ Class Size: 144  (140+4)
 */
 class CAbilityVampireBonus : CAbilityPersistentBonus {
 public:
-   int field_8C;
-
+    int field_8C;
 };

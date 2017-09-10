@@ -8,8 +8,7 @@ Class Size: 228  (216+12)
 */
 class CBuffPhaseShift : CBuffPause {
 public:
-   int field_D8;
-   int field_DC;
-   int field_E0;
-
+    int field_D8;
+    int field_DC;
+    int field_E0;
 };

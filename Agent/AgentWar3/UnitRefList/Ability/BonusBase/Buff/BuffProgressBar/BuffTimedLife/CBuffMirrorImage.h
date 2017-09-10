@@ -8,9 +8,8 @@ Class Size: 228  (212+16)
 */
 class CBuffMirrorImage : CBuffTimedLife {
 public:
-   int field_D4;
-   int field_D8;
-   int field_DC;
-   int field_E0;
-
+    int field_D4;
+    int field_D8;
+    int field_DC;
+    int field_E0;
 };

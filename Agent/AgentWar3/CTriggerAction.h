@@ -8,6 +8,5 @@ Class Size: 40  (36+4)
 */
 class CTriggerAction : CAgentWar3 {
 public:
-   int field_24;
-
+    int field_24;
 };

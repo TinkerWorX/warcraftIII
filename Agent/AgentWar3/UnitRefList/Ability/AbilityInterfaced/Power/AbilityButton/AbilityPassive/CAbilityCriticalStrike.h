@@ -8,7 +8,6 @@ Class Size: 136  (128+8)
 */
 class CAbilityCriticalStrike : CAbilityPassive {
 public:
-   int field_80;
-   int field_84;
-
+    int field_80;
+    int field_84;
 };

@@ -8,6 +8,5 @@ Class Size: 56  (52+4)
 */
 class CTaskParam : CTask {
 public:
-   int field_34;
-
+    int field_34;
 };

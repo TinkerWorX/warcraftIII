@@ -8,6 +8,5 @@ Class Size: 48  (44+4)
 */
 class CPlayerStateLimitEventData : CPlayerEventDataBase {
 public:
-   int field_2C;
-
+    int field_2C;
 };

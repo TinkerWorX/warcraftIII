@@ -8,11 +8,10 @@ Class Size: 300  (276+24)
 */
 class CBuffParasite : CBuffPoisonAttack {
 public:
-   int field_114;
-   int field_118;
-   int field_11C;
-   int field_120;
-   int field_124;
-   int field_128;
-
+    int field_114;
+    int field_118;
+    int field_11C;
+    int field_120;
+    int field_124;
+    int field_128;
 };

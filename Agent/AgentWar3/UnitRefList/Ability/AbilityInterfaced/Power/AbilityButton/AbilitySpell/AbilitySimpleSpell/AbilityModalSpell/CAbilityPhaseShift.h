@@ -8,8 +8,7 @@ Class Size: 304  (292+12)
 */
 class CAbilityPhaseShift : CAbilityModalSpell {
 public:
-   int field_124;
-   int field_128;
-   int field_12C;
-
+    int field_124;
+    int field_128;
+    int field_12C;
 };

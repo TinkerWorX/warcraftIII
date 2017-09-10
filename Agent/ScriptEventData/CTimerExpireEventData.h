@@ -8,6 +8,5 @@ Class Size: 36  (32+4)
 */
 class CTimerExpireEventData : CScriptEventData {
 public:
-   int field_20;
-
+    int field_20;
 };

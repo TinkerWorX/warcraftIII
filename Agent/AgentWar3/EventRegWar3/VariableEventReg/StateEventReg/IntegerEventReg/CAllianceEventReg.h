@@ -8,8 +8,7 @@ Class Size: 84  (72+12)
 */
 class CAllianceEventReg : CIntegerEventReg {
 public:
-   int field_48;
-   int field_4C;
-   int field_50;
-
+    int field_48;
+    int field_4C;
+    int field_50;
 };

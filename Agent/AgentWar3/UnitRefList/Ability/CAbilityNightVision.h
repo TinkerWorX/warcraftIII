@@ -8,7 +8,6 @@ Class Size: 116  (108+8)
 */
 class CAbilityNightVision : CAbility {
 public:
-   int field_6C;
-   int field_70;
-
+    int field_6C;
+    int field_70;
 };

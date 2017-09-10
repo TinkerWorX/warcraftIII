@@ -8,8 +8,7 @@ Class Size: 240  (228+12)
 */
 class CAbilityDivineShield : CAbilitySpell {
 public:
-   int field_E4;
-   int field_E8;
-   int field_EC;
-
+    int field_E4;
+    int field_E8;
+    int field_EC;
 };

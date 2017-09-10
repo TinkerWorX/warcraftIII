@@ -8,8 +8,7 @@ Class Size: 224  (212+12)
 */
 class CBuffMilitia : CBuffProgressBar {
 public:
-   int field_D4;
-   int field_D8;
-   int field_DC;
-
+    int field_D4;
+    int field_D8;
+    int field_DC;
 };

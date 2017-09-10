@@ -8,7 +8,6 @@ Class Size: 156  (148+8)
 */
 class CAbilityItemRegenMana : CAbilityRegenMana {
 public:
-   int field_94;
-   int field_98;
-
+    int field_94;
+    int field_98;
 };

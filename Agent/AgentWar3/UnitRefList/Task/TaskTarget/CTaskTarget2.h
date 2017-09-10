@@ -8,8 +8,7 @@ Class Size: 88  (76+12)
 */
 class CTaskTarget2 : CTaskTarget {
 public:
-   int field_4C;
-   int field_50;
-   int field_54;
-
+    int field_4C;
+    int field_50;
+    int field_54;
 };

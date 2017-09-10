@@ -8,8 +8,7 @@ Class Size: 216  (204+12)
 */
 class CBuffSoulPreservation : CBuff {
 public:
-   int field_CC;
-   int field_D0;
-   int field_D4;
-
+    int field_CC;
+    int field_D0;
+    int field_D4;
 };

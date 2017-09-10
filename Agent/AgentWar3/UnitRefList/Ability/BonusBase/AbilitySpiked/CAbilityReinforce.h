@@ -8,6 +8,5 @@ Class Size: 148  (144+4)
 */
 class CAbilityReinforce : CAbilitySpiked {
 public:
-   int field_90;
-
+    int field_90;
 };

@@ -8,6 +8,5 @@ Class Size: 424  (420+4)
 */
 class CAbilityMount : CAbilityMorph {
 public:
-   int field_1A4;
-
+    int field_1A4;
 };

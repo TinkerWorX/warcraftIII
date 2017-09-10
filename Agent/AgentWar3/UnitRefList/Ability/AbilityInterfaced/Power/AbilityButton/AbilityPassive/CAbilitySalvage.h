@@ -8,9 +8,8 @@ Class Size: 144  (128+16)
 */
 class CAbilitySalvage : CAbilityPassive {
 public:
-   int field_80;
-   int field_84;
-   int field_88;
-   int field_8C;
-
+    int field_80;
+    int field_84;
+    int field_88;
+    int field_8C;
 };

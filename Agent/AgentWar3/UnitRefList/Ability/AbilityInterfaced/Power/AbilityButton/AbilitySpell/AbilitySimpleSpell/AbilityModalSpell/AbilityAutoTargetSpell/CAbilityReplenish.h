@@ -8,7 +8,6 @@ Class Size: 320  (312+8)
 */
 class CAbilityReplenish : CAbilityAutoTargetSpell {
 public:
-   int field_138;
-   int field_13C;
-
+    int field_138;
+    int field_13C;
 };

@@ -8,7 +8,6 @@ Class Size: 240  (232+8)
 */
 class CMissileCorruption : CBuffMissile {
 public:
-   int field_E8;
-   int field_EC;
-
+    int field_E8;
+    int field_EC;
 };

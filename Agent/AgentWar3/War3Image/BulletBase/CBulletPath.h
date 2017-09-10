@@ -8,9 +8,8 @@ Class Size: 136  (120+16)
 */
 class CBulletPath : CBulletBase {
 public:
-   int field_78;
-   int field_7C;
-   int field_80;
-   int field_84;
-
+    int field_78;
+    int field_7C;
+    int field_80;
+    int field_84;
 };

@@ -8,6 +8,5 @@ Class Size: 176  (172+4)
 */
 class CMissileElementalFury : CMissile {
 public:
-   int field_AC;
-
+    int field_AC;
 };

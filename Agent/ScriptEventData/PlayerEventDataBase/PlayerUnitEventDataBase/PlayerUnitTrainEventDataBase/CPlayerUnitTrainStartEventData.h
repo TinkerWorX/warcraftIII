@@ -8,6 +8,5 @@ Class Size: 72  (68+4)
 */
 class CPlayerUnitTrainStartEventData : CPlayerUnitTrainEventDataBase {
 public:
-   int field_44;
-
+    int field_44;
 };

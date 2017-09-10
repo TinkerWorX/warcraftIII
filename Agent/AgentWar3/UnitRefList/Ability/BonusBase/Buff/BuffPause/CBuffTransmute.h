@@ -8,10 +8,9 @@ Class Size: 236  (216+20)
 */
 class CBuffTransmute : CBuffPause {
 public:
-   int field_D8;
-   int field_DC;
-   int field_E0;
-   int field_E4;
-   int field_E8;
-
+    int field_D8;
+    int field_DC;
+    int field_E0;
+    int field_E4;
+    int field_E8;
 };

@@ -8,7 +8,6 @@ Class Size: 76  (68+8)
 */
 class CPlayerHeroSkillEventData : CPlayerUnitEventDataBase {
 public:
-   int field_44;
-   int field_48;
-
+    int field_44;
+    int field_48;
 };

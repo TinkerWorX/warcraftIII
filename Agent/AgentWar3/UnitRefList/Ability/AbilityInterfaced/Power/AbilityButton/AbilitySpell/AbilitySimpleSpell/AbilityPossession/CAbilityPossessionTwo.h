@@ -8,14 +8,13 @@ Class Size: 328  (292+36)
 */
 class CAbilityPossessionTwo : CAbilityPossession {
 public:
-   int field_124;
-   int field_128;
-   int field_12C;
-   int field_130;
-   int field_134;
-   int field_138;
-   int field_13C;
-   int field_140;
-   int field_144;
-
+    int field_124;
+    int field_128;
+    int field_12C;
+    int field_130;
+    int field_134;
+    int field_138;
+    int field_13C;
+    int field_140;
+    int field_144;
 };

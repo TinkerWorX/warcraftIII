@@ -7,5 +7,4 @@ Class ID: rlev
 Class Size: 56  (56+0)
 */
 class CUpgradeSpell : CUpgradeEffect {
-
 };

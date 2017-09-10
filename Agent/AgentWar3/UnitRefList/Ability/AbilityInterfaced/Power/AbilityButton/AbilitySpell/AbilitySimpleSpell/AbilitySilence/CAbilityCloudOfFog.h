@@ -8,8 +8,7 @@ Class Size: 308  (296+12)
 */
 class CAbilityCloudOfFog : CAbilitySilence {
 public:
-   int field_128;
-   int field_12C;
-   int field_130;
-
+    int field_128;
+    int field_12C;
+    int field_130;
 };

@@ -8,8 +8,7 @@ Class Size: 264  (252+12)
 */
 class CBuffEntanglingRoots : CBuffLifeDoT {
 public:
-   int field_FC;
-   int field_100;
-   int field_104;
-
+    int field_FC;
+    int field_100;
+    int field_104;
 };

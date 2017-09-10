@@ -8,8 +8,7 @@ Class Size: 64  (52+12)
 */
 class CDeathEventReg : CEventRegWar3 {
 public:
-   int field_34;
-   int field_38;
-   int field_3C;
-
+    int field_34;
+    int field_38;
+    int field_3C;
 };

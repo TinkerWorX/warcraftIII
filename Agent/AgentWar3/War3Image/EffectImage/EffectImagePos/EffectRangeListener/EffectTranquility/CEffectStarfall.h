@@ -8,7 +8,6 @@ Class Size: 292  (284+8)
 */
 class CEffectStarfall : CEffectTranquility {
 public:
-   int field_11C;
-   int field_120;
-
+    int field_11C;
+    int field_120;
 };

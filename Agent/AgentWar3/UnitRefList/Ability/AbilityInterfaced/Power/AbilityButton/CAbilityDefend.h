@@ -8,11 +8,10 @@ Class Size: 152  (128+24)
 */
 class CAbilityDefend : CAbilityButton {
 public:
-   int field_80;
-   int field_84;
-   int field_88;
-   int field_8C;
-   int field_90;
-   int field_94;
-
+    int field_80;
+    int field_84;
+    int field_88;
+    int field_8C;
+    int field_90;
+    int field_94;
 };

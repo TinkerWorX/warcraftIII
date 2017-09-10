@@ -8,6 +8,5 @@ Class Size: 40  (36+4)
 */
 class CBooleanNot : CBooleanExpr {
 public:
-   int field_24;
-
+    int field_24;
 };

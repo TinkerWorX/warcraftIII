@@ -8,6 +8,5 @@ Class Size: 132  (128+4)
 */
 class CAbilityPoisonAttack : CAbilityPassive {
 public:
-   int field_80;
-
+    int field_80;
 };

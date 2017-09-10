@@ -8,8 +8,7 @@ Class Size: 188  (176+12)
 */
 class CAbilityNeutralBuild : CAbilityBuild {
 public:
-   int field_B0;
-   int field_B4;
-   int field_B8;
-
+    int field_B0;
+    int field_B4;
+    int field_B8;
 };

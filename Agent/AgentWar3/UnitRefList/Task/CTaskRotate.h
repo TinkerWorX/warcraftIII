@@ -8,7 +8,6 @@ Class Size: 60  (52+8)
 */
 class CTaskRotate : CTask {
 public:
-   int field_34;
-   int field_38;
-
+    int field_34;
+    int field_38;
 };

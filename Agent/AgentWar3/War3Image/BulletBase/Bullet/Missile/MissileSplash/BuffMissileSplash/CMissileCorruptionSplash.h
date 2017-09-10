@@ -8,7 +8,6 @@ Class Size: 296  (288+8)
 */
 class CMissileCorruptionSplash : CBuffMissileSplash {
 public:
-   int field_120;
-   int field_124;
-
+    int field_120;
+    int field_124;
 };

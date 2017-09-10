@@ -8,8 +8,7 @@ Class Size: 140  (128+12)
 */
 class CAbilityWarStomp : CAbilityPassive {
 public:
-   int field_80;
-   int field_84;
-   int field_88;
-
+    int field_80;
+    int field_84;
+    int field_88;
 };

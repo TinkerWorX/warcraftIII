@@ -8,9 +8,8 @@ Class Size: 256  (240+16)
 */
 class CBuffEthereal : CBuffSpeed {
 public:
-   int field_F0;
-   int field_F4;
-   int field_F8;
-   int field_FC;
-
+    int field_F0;
+    int field_F4;
+    int field_F8;
+    int field_FC;
 };

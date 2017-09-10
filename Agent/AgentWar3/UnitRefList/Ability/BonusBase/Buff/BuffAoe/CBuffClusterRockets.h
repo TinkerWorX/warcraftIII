@@ -8,6 +8,5 @@ Class Size: 216  (212+4)
 */
 class CBuffClusterRockets : CBuffAoe {
 public:
-   int field_D4;
-
+    int field_D4;
 };

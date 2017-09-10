@@ -8,6 +8,5 @@ Class Size: 152  (148+4)
 */
 class CAbilityTranquilityRegen : CAbilityRegenLife {
 public:
-   int field_94;
-
+    int field_94;
 };

@@ -8,10 +8,9 @@ Class Size: 192  (172+20)
 */
 class CMissileMirrorImage : CMissile {
 public:
-   int field_AC;
-   int field_B0;
-   int field_B4;
-   int field_B8;
-   int field_BC;
-
+    int field_AC;
+    int field_B0;
+    int field_B4;
+    int field_B8;
+    int field_BC;
 };

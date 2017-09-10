@@ -8,6 +8,5 @@ Class Size: 276  (272+4)
 */
 class CBuffCloudOfFog : CBuffSilence {
 public:
-   int field_110;
-
+    int field_110;
 };

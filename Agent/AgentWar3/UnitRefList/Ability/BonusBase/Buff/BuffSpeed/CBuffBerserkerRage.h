@@ -8,7 +8,6 @@ Class Size: 248  (240+8)
 */
 class CBuffBerserkerRage : CBuffSpeed {
 public:
-   int field_F0;
-   int field_F4;
-
+    int field_F0;
+    int field_F4;
 };

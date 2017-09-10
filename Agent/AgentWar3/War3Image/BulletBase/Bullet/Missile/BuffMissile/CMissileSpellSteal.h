@@ -8,8 +8,7 @@ Class Size: 244  (232+12)
 */
 class CMissileSpellSteal : CBuffMissile {
 public:
-   int field_E8;
-   int field_EC;
-   int field_F0;
-
+    int field_E8;
+    int field_EC;
+    int field_F0;
 };

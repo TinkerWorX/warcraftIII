@@ -8,7 +8,6 @@ Class Size: 428  (420+8)
 */
 class CAbilityMetamorphosis : CAbilityMorph {
 public:
-   int field_1A4;
-   int field_1A8;
-
+    int field_1A4;
+    int field_1A8;
 };

@@ -8,10 +8,9 @@ Class Size: 224  (204+20)
 */
 class CBuffAura : CBuff {
 public:
-   int field_CC;
-   int field_D0;
-   int field_D4;
-   int field_D8;
-   int field_DC;
-
+    int field_CC;
+    int field_D0;
+    int field_D4;
+    int field_D8;
+    int field_DC;
 };

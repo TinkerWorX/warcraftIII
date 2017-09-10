@@ -8,10 +8,9 @@ Class Size: 332  (312+20)
 */
 class CAbilityResurrection : CAbilityAnimateDead {
 public:
-   int field_138;
-   int field_13C;
-   int field_140;
-   int field_144;
-   int field_148;
-
+    int field_138;
+    int field_13C;
+    int field_140;
+    int field_144;
+    int field_148;
 };

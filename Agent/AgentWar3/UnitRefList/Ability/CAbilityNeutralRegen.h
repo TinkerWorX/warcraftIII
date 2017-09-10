@@ -8,6 +8,5 @@ Class Size: 112  (108+4)
 */
 class CAbilityNeutralRegen : CAbility {
 public:
-   int field_6C;
-
+    int field_6C;
 };

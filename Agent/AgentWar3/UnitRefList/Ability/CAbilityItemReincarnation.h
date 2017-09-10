@@ -8,8 +8,7 @@ Class Size: 120  (108+12)
 */
 class CAbilityItemReincarnation : CAbility {
 public:
-   int field_6C;
-   int field_70;
-   int field_74;
-
+    int field_6C;
+    int field_70;
+    int field_74;
 };

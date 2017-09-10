@@ -8,9 +8,8 @@ Class Size: 308  (292+16)
 */
 class CAbilityItemManaRestore : CAbilitySimpleSpell {
 public:
-   int field_124;
-   int field_128;
-   int field_12C;
-   int field_130;
-
+    int field_124;
+    int field_128;
+    int field_12C;
+    int field_130;
 };

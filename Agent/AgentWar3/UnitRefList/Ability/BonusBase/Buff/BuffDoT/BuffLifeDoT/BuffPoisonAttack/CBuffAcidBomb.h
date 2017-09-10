@@ -8,9 +8,8 @@ Class Size: 292  (276+16)
 */
 class CBuffAcidBomb : CBuffPoisonAttack {
 public:
-   int field_114;
-   int field_118;
-   int field_11C;
-   int field_120;
-
+    int field_114;
+    int field_118;
+    int field_11C;
+    int field_120;
 };

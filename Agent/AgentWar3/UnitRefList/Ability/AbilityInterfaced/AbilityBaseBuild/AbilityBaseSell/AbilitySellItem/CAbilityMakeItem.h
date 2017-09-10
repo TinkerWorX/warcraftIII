@@ -8,6 +8,5 @@ Class Size: 1152  (1148+4)
 */
 class CAbilityMakeItem : CAbilitySellItem {
 public:
-   int field_47C;
-
+    int field_47C;
 };

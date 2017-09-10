@@ -8,7 +8,6 @@ Class Size: 52  (44+8)
 */
 class CUnitEventHeroSkillData : CUnitEventDataBase {
 public:
-   int field_2C;
-   int field_30;
-
+    int field_2C;
+    int field_30;
 };
