@@ -1,19 +1,20 @@
-#include "CAgent_VTable.h"
-#include "CWidget_VTable.h"
-#include "CUnit_VTable.h"
 
-class CAgent { /* size = 32 */
+
+
+
+/*
+Class ID: +aga
+Class Size: 32
+*/
+class CAgent {
 public:
-    union {
-      CAgent_VTable* cAgent_vtable;
-      CWidget_VTable* cWidget_vtable;
-      CUnit_VTable* cUnit_vtable;
-    };
-    _DWORD field_4;
-    _DWORD field_8;
-    int field_C;
-    int field_10;
-    _DWORD field_14;
-    _DWORD field_18;
-    _DWORD field_1C;
+   int field_0;
+   int field_4;
+   int field_8;
+   int field_C;
+   int field_10;
+   int field_14;
+   int field_18;
+   int field_1C;
+
 };

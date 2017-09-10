@@ -1,4 +1,4 @@
-typedef _DWORD (__thiscall* pCAgent__Function)(void* agent);
+typedef int (__thiscall* pCAgent__Function)(void* agent);
 
 typedef int (__thiscall* pCAgent__GetClassId)(void* agent);
 typedef char* (__thiscall* pCAgent__GetClassName)(void* agent);
