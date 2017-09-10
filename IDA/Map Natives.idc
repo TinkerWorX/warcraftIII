@@ -1,6 +1,6 @@
 #include <idc.idc>
 
-static str_count(str, sub) {
+static strCount(str, sub) {
     auto count;
     count = 0;
     while(strstr(str, sub) != -1) {
@@ -10,16 +10,16 @@ static str_count(str, sub) {
     return count;
 }
 
-static type_from_jArgs(jArgs, name) {
+static typeFromArgs(jArgs, name) {
     auto args, count;
     args = substr(jArgs, strstr(jArgs, "(") + 1, strstr(jArgs, ")"));
     
-    count =         str_count(args, "I");
-    count = count + str_count(args, "R");
-    count = count + str_count(args, "B");
-    count = count + str_count(args, "H");
-    count = count + str_count(args, "C");
-    count = count + str_count(args, "S");
+    count =         strCount(args, "I");
+    count = count + strCount(args, "R");
+    count = count + strCount(args, "B");
+    count = count + strCount(args, "H");
+    count = count + strCount(args, "C");
+    count = count + strCount(args, "S");
     args = "";
     while(count > 1) {
         args = ", " + form("int a%d", count) + args;
@@ -30,7 +30,7 @@ static type_from_jArgs(jArgs, name) {
     return "int __cdecl " + name + "(" + args + ");";
 }
 
-static map_Native(address) {
+static mapNative(address) {
     auto argsAddress, nameAddress, funcAddress, funcString, argsString, funcType;
     argsAddress = Dword(address + 0x1);
     nameAddress = Dword(address + 0x6);
@@ -38,33 +38,36 @@ static map_Native(address) {
     funcString = GetString(nameAddress, -1, ASCSTR_C);
     argsString = GetString(argsAddress, -1, ASCSTR_C);
     
-    funcType = type_from_jArgs(argsString, funcString);
+    if(Byte(funcAddress + 0x00) == 0x33 && Byte(funcAddress + 0x01) == 0xC0)
+        return;
+    funcType = typeFromArgs(argsString, funcString);
     Message("Renaming sub_%08X into j%s with the type %s\n", funcAddress, funcString, funcType);
     SetType(funcAddress, funcType);
     
     MakeNameEx(nameAddress, "a" + funcString, SN_NOWARN);
     MakeNameEx(funcAddress, "j" + funcString, SN_NOWARN);
-    
 }
-static map_Natives(pInitGameNatives) {
-    auto startAddress, address;
-    startAddress = pInitGameNatives + 0x5;
-    Message(form("Starting native renaming at: %08X\n", startAddress));
-    address = startAddress;
-    while(Byte(address) != 0xC3) {
-        map_Native(address);
-        address = address + 0x14;
+
+static mapAllNatives(pBindNative) {
+    auto current;
+
+    current = RfirstB(pBindNative);
+    while(current != -1) {
+        mapNative(current - 0xF);
+        current = RnextB(pBindNative, current);
     }
 }
 
-static address_from_call(address) {
+static addressFromCall(address) {
 	return Dword(address + 0x1) + address + 0x5;
 }
 
 static main() {
-    auto bDeg2Rad, pDeg2Rad, pInitGameNatives, pInitEditorNatives, pBindNative;
+    auto bDeg2Rad, pDeg2Rad, bDebugS, pDebugS, pInitGameNatives, pInitAiNatives, pInitEditorNatives, pBindNative;
 	bDeg2Rad = "44 65 67 32 52 61 64 00";
     pDeg2Rad = FindBinary(0x6F001000, SEARCH_DOWN, bDeg2Rad);
+    bDebugS = "44 65 62 75 67 53 00";
+    pDebugS = FindBinary(0x6F001000, SEARCH_DOWN, bDebugS);
     
     pInitGameNatives = NextFunction(PrevFunction(DfirstB(pDeg2Rad)));
     Message(form("Address of InitGameNatives: 0x%08X\n", pInitGameNatives));
@@ -76,10 +79,15 @@ static main() {
     MakeNameEx(pInitEditorNatives, "InitEditorNatives", SN_NOWARN);
     SetType(pInitEditorNatives, "void __cdecl InitEditorNatives();");
     
-    pBindNative = address_from_call(DfirstB(pDeg2Rad) + 0xA);
+    pInitAiNatives = PrevFunction(PrevFunction(DnextB(pDebugS, DfirstB(pDebugS))));
+    Message(form("Address of pInitAiNatives: 0x%08X\n", pInitAiNatives));
+    MakeNameEx(pInitAiNatives, "InitAiNatives", SN_NOWARN);
+    SetType(pInitAiNatives, "void __cdecl InitAiNatives();");
+    
+    pBindNative = addressFromCall(DfirstB(pDeg2Rad) + 0xA);
     Message(form("Address of BindNative: 0x%08X\n", pBindNative));
     MakeNameEx(pBindNative, "BindNative", SN_NOWARN);
     SetType(pBindNative, "void __fastcall BindNative(void* func, char* name, char* args);");
     
-    map_Natives(pInitGameNatives);
+    mapAllNatives(pBindNative);
 }
