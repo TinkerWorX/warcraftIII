@@ -10,4 +10,4 @@ class CAbilityFlare : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

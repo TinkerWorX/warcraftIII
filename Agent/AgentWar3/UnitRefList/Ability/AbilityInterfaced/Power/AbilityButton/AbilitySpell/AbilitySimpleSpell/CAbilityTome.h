@@ -10,4 +10,4 @@ class CAbilityTome : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

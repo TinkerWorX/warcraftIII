@@ -10,4 +10,4 @@ class CStateEventReg : CVariableEventReg {
 public:
    int field_40;
 
-}
+};

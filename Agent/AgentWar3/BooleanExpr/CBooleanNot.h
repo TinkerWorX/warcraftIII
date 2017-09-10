@@ -10,4 +10,4 @@ class CBooleanNot : CBooleanExpr {
 public:
    int field_24;
 
-}
+};

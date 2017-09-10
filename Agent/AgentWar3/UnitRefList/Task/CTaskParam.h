@@ -10,4 +10,4 @@ class CTaskParam : CTask {
 public:
    int field_34;
 
-}
+};

@@ -10,4 +10,4 @@ class CAbilityItemIllusion : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

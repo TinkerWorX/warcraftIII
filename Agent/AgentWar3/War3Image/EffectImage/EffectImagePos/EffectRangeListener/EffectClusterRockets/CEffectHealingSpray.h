@@ -8,4 +8,4 @@ Class Size: 328  (328+0)
 */
 class CEffectHealingSpray : CEffectClusterRockets {
 
-}
+};

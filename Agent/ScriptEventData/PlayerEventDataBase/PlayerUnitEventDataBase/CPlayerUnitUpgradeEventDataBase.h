@@ -10,4 +10,4 @@ class CPlayerUnitUpgradeEventDataBase : CPlayerUnitEventDataBase {
 public:
    int field_44;
 
-}
+};

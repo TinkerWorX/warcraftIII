@@ -8,4 +8,4 @@ Class Size: 252  (252+0)
 */
 class CBuffLifeDoT : CBuffDoT {
 
-}
+};

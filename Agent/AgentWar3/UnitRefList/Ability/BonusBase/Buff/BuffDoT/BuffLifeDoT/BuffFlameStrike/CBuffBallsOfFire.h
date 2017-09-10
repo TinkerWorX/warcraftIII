@@ -8,4 +8,4 @@ Class Size: 300  (300+0)
 */
 class CBuffBallsOfFire : CBuffFlameStrike {
 
-}
+};

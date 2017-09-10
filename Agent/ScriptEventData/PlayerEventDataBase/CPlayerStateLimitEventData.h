@@ -10,4 +10,4 @@ class CPlayerStateLimitEventData : CPlayerEventDataBase {
 public:
    int field_2C;
 
-}
+};

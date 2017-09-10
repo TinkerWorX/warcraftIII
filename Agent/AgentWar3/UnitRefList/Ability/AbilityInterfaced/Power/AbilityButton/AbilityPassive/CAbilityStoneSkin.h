@@ -10,4 +10,4 @@ class CAbilityStoneSkin : CAbilityPassive {
 public:
    int field_80;
 
-}
+};

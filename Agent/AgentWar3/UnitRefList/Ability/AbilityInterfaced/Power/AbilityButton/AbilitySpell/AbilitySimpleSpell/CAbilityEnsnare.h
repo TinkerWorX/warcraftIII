@@ -10,4 +10,4 @@ class CAbilityEnsnare : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

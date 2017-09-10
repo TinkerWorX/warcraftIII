@@ -10,4 +10,4 @@ class CAbilityClosestTargetSpell : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

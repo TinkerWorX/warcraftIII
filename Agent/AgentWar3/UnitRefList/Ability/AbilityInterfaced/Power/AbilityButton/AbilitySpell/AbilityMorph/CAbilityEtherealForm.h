@@ -8,4 +8,4 @@ Class Size: 420  (420+0)
 */
 class CAbilityEtherealForm : CAbilityMorph {
 
-}
+};

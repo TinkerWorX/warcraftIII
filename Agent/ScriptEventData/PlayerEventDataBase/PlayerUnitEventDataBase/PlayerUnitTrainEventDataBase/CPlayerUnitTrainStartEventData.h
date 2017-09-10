@@ -10,4 +10,4 @@ class CPlayerUnitTrainStartEventData : CPlayerUnitTrainEventDataBase {
 public:
    int field_44;
 
-}
+};

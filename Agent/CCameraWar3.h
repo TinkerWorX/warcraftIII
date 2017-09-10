@@ -369,4 +369,4 @@ public:
    int field_5B8;
    int field_5BC;
 
-}
+};

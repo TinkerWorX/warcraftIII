@@ -31,4 +31,4 @@ public:
    int field_7C;
    int field_80;
 
-}
+};

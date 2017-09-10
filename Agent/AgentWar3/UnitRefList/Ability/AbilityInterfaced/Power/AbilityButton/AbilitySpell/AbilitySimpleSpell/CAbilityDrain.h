@@ -32,4 +32,4 @@ public:
    int field_178;
    int field_17C;
 
-}
+};

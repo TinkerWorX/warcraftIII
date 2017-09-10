@@ -15,4 +15,4 @@ public:
    int field_B0;
    int field_B4;
 
-}
+};

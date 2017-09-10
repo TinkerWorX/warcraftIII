@@ -12,4 +12,4 @@ public:
    int field_B4;
    int field_B8;
 
-}
+};

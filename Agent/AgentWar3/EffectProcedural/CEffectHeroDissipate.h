@@ -10,4 +10,4 @@ class CEffectHeroDissipate : CEffectProcedural {
 public:
    int field_44;
 
-}
+};

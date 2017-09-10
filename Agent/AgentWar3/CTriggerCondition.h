@@ -10,4 +10,4 @@ class CTriggerCondition : CAgentWar3 {
 public:
    int field_24;
 
-}
+};

@@ -10,4 +10,4 @@ class CTriggerRegion : CAgent {
 public:
    int field_20;
 
-}
+};

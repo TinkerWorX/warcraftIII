@@ -10,4 +10,4 @@ class CEffectImageFogged : CEffectImage {
 public:
    int field_84;
 
-}
+};

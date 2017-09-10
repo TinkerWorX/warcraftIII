@@ -8,4 +8,4 @@ Class Size: 208  (208+0)
 */
 class CAbilityEntangledGoldMine : CAbilityPossessedGoldMine {
 
-}
+};

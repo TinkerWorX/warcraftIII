@@ -10,4 +10,4 @@ class CAbilityInferno : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

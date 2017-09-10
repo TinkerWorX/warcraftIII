@@ -8,4 +8,4 @@ Class Size: 60  (60+0)
 */
 class CUnitTrainCancelEventData : CUnitTrainStartEventData {
 
-}
+};

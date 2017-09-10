@@ -10,4 +10,4 @@ class CAbilityInProgress : CAbilityBaseBuild {
 public:
    int field_94;
 
-}
+};

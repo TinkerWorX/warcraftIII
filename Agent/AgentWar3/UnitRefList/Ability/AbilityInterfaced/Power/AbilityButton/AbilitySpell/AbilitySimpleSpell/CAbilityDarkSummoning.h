@@ -98,4 +98,4 @@ public:
    int field_280;
    int field_284;
 
-}
+};

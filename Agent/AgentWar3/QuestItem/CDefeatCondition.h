@@ -8,4 +8,4 @@ Class Size: 52  (52+0)
 */
 class CDefeatCondition : CQuestItem {
 
-}
+};

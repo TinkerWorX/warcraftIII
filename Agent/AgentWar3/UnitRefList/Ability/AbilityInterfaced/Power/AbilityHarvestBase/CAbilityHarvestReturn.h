@@ -22,4 +22,4 @@ public:
    int field_1C0;
    int field_1C4;
 
-}
+};

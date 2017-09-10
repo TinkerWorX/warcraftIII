@@ -10,4 +10,4 @@ class CAbilityPurchaseItem : CAbility {
 public:
    int field_6C;
 
-}
+};

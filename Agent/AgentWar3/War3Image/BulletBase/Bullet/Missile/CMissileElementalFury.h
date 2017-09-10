@@ -10,4 +10,4 @@ class CMissileElementalFury : CMissile {
 public:
    int field_AC;
 
-}
+};

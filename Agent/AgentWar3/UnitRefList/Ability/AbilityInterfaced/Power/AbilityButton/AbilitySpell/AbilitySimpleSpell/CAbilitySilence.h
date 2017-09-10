@@ -10,4 +10,4 @@ class CAbilitySilence : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

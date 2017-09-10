@@ -24,4 +24,4 @@ public:
    int field_A0;
    int field_A4;
 
-}
+};

@@ -10,4 +10,4 @@ class CAbilityPassiveDefense : CAbilityPassive {
 public:
    int field_80;
 
-}
+};

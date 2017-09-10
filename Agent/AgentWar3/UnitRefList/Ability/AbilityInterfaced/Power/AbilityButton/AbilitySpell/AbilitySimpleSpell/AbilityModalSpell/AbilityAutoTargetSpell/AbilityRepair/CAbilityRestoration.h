@@ -8,4 +8,4 @@ Class Size: 464  (464+0)
 */
 class CAbilityRestoration : CAbilityRepair {
 
-}
+};

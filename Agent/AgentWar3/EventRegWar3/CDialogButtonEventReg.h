@@ -10,4 +10,4 @@ class CDialogButtonEventReg : CEventRegWar3 {
 public:
    int field_34;
 
-}
+};

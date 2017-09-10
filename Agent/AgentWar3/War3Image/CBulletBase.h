@@ -28,4 +28,4 @@ public:
    int field_70;
    int field_74;
 
-}
+};

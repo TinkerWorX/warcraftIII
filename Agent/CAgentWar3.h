@@ -10,4 +10,4 @@ class CAgentWar3 : CAgent {
 public:
    int field_20;
 
-}
+};

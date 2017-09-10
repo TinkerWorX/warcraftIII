@@ -10,4 +10,4 @@ class CUnitTrainStartEventData : CUnitTrainEventDataBase {
 public:
    int field_38;
 
-}
+};

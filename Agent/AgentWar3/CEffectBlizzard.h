@@ -222,4 +222,4 @@ public:
    int field_370;
    int field_374;
 
-}
+};

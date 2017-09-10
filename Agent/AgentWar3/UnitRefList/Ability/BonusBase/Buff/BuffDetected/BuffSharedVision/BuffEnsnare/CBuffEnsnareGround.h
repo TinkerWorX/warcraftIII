@@ -8,4 +8,4 @@ Class Size: 280  (280+0)
 */
 class CBuffEnsnareGround : CBuffEnsnare {
 
-}
+};

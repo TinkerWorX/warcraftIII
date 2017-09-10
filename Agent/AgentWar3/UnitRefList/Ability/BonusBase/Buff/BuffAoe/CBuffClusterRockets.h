@@ -10,4 +10,4 @@ class CBuffClusterRockets : CBuffAoe {
 public:
    int field_D4;
 
-}
+};

@@ -10,4 +10,4 @@ class CAbilityMakeItem : CAbilitySellItem {
 public:
    int field_47C;
 
-}
+};

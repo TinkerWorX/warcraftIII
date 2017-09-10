@@ -23,4 +23,4 @@ public:
    int field_9C;
    int field_A0;
 
-}
+};

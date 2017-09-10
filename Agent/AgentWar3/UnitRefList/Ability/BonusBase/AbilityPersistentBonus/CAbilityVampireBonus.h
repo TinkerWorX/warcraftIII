@@ -10,4 +10,4 @@ class CAbilityVampireBonus : CAbilityPersistentBonus {
 public:
    int field_8C;
 
-}
+};

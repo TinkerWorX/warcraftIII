@@ -10,4 +10,4 @@ class CAbilityPoisonAttack : CAbilityPassive {
 public:
    int field_80;
 
-}
+};

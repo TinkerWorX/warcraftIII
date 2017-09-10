@@ -10,4 +10,4 @@ class CUnitResearchEventDataBase : CUnitEventDataBase {
 public:
    int field_2C;
 
-}
+};

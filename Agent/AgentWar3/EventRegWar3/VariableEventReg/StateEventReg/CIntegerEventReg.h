@@ -10,4 +10,4 @@ class CIntegerEventReg : CStateEventReg {
 public:
    int field_44;
 
-}
+};

@@ -18,4 +18,4 @@ public:
    int field_B8;
    int field_BC;
 
-}
+};

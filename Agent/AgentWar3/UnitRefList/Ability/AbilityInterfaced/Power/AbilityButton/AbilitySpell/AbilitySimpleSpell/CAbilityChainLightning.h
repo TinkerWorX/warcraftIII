@@ -110,4 +110,4 @@ public:
    int field_2B0;
    int field_2B4;
 
-}
+};

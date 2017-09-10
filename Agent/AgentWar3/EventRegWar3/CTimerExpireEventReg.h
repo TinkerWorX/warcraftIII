@@ -10,4 +10,4 @@ class CTimerExpireEventReg : CEventRegWar3 {
 public:
    int field_34;
 
-}
+};

@@ -10,4 +10,4 @@ class CAbilityTranquilityRegen : CAbilityRegenLife {
 public:
    int field_94;
 
-}
+};

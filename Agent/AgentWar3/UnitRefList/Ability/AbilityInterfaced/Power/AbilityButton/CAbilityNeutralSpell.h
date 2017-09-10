@@ -10,4 +10,4 @@ class CAbilityNeutralSpell : CAbilityButton {
 public:
    int field_80;
 
-}
+};

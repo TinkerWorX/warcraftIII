@@ -10,4 +10,4 @@ class CTournamentFinishSoonEventData : CScriptEventData {
 public:
    int field_20;
 
-}
+};

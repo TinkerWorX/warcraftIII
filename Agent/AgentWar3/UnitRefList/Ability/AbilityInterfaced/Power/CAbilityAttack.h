@@ -242,4 +242,4 @@ public:
    int field_408;
    int field_40C;
 
-}
+};

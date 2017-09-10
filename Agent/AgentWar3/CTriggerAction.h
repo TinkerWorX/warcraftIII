@@ -10,4 +10,4 @@ class CTriggerAction : CAgentWar3 {
 public:
    int field_24;
 
-}
+};

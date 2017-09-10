@@ -150,4 +150,4 @@ public:
    int field_298;
    int field_29C;
 
-}
+};

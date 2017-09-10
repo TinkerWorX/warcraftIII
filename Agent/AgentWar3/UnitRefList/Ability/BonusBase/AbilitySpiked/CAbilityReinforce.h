@@ -10,4 +10,4 @@ class CAbilityReinforce : CAbilitySpiked {
 public:
    int field_90;
 
-}
+};

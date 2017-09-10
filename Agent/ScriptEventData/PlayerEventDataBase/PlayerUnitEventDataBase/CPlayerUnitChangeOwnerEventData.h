@@ -10,4 +10,4 @@ class CPlayerUnitChangeOwnerEventData : CPlayerUnitEventDataBase {
 public:
    int field_44;
 
-}
+};

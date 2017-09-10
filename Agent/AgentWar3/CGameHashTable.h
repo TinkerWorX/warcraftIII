@@ -10,4 +10,4 @@ class CGameHashTable : CAgentWar3 {
 public:
    int field_24;
 
-}
+};

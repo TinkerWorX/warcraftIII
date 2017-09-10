@@ -10,4 +10,4 @@ class CJassFunc : CAgentWar3 {
 public:
    int field_24;
 
-}
+};

@@ -10,4 +10,4 @@ class CAbilityNeutralRegen : CAbility {
 public:
    int field_6C;
 
-}
+};

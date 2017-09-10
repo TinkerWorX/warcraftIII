@@ -10,4 +10,4 @@ class CAbilityCyclone : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

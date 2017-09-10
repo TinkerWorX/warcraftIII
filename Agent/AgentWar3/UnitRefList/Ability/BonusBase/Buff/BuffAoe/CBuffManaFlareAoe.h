@@ -18,4 +18,4 @@ public:
    int field_F0;
    int field_F4;
 
-}
+};

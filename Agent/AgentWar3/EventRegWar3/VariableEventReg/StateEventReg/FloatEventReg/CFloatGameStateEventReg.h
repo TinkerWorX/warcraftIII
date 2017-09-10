@@ -8,4 +8,4 @@ Class Size: 76  (76+0)
 */
 class CFloatGameStateEventReg : CFloatEventReg {
 
-}
+};

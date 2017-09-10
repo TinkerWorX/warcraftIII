@@ -8,4 +8,4 @@ Class Size: 184  (184+0)
 */
 class CAbilityFireDamageBonus : CAbilityDamageBonusBase {
 
-}
+};

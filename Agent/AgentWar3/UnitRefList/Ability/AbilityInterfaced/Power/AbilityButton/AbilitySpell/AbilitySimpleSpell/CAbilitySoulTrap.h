@@ -10,4 +10,4 @@ class CAbilitySoulTrap : CAbilitySimpleSpell {
 public:
    int field_124;
 
-}
+};

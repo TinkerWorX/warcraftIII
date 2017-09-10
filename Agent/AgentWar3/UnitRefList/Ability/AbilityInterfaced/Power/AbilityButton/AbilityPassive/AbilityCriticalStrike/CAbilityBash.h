@@ -8,4 +8,4 @@ Class Size: 136  (136+0)
 */
 class CAbilityBash : CAbilityCriticalStrike {
 
-}
+};

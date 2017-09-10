@@ -10,4 +10,4 @@ class CFilterFunc : CBooleanExpr {
 public:
    int field_24;
 
-}
+};

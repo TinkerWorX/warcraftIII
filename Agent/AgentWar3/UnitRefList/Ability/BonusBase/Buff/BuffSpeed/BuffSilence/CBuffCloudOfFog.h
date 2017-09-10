@@ -10,4 +10,4 @@ class CBuffCloudOfFog : CBuffSilence {
 public:
    int field_110;
 
-}
+};

@@ -10,4 +10,4 @@ class CUnitStateLimitEventData : CUnitEventDataBase {
 public:
    int field_2C;
 
-}
+};

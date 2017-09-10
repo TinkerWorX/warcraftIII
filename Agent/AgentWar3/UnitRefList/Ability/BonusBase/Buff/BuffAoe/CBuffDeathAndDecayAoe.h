@@ -20,4 +20,4 @@ public:
    int field_F8;
    int field_FC;
 
-}
+};

@@ -8,4 +8,4 @@ Class Size: 56  (56+0)
 */
 class CUpgradeUprootWeapons : CUpgradeEffect {
 
-}
+};

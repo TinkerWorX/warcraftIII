@@ -10,4 +10,4 @@ class CAbilityMount : CAbilityMorph {
 public:
    int field_1A4;
 
-}
+};

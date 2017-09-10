@@ -10,4 +10,4 @@ class CTimerExpireEventData : CScriptEventData {
 public:
    int field_20;
 
-}
+};

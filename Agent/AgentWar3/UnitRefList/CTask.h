@@ -10,4 +10,4 @@ class CTask : CUnitRefList {
 public:
    int field_30;
 
-}
+};

@@ -12,4 +12,4 @@ public:
    int field_84;
    int field_88;
 
-}
+};

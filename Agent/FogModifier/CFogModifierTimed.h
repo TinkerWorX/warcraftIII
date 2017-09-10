@@ -14,4 +14,4 @@ public:
    int field_5C;
    int field_60;
 
-}
+};
