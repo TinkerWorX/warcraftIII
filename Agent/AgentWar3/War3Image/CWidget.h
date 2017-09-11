@@ -9,7 +9,7 @@ Class Size: 68  (44+24)
 class CWidget : CWar3Image {
 public:
     int field_2C;
-    int field_30;
+    int typeId;
     int field_34;
     int field_38;
     int field_3C;
