@@ -16,19 +16,19 @@ public:
     int field_80;
     int field_84;
     int field_88;
-    int field_8C;
-    int field_90;
-    int field_94;
+    int experience;
+    int skillPoints;
+    int strength; // assigned with the SetHeroStr native
     int field_98;
     int field_9C;
     int field_A0;
     int field_A4;
-    int field_A8;
+    int agility; // assigned with the SetHeroAgi native
     int field_AC;
     int field_B0;
     int field_B4;
     int field_B8;
-    int field_BC;
+    int intelligence; // needs to be confirmed
     int field_C0;
     int field_C4;
     int field_C8;
@@ -40,7 +40,7 @@ public:
     int field_E0;
     int field_E4;
     int field_E8;
-    int field_EC;
+    int suspendHeroExperience;
     int field_F0;
     int field_F4;
     int field_F8;
