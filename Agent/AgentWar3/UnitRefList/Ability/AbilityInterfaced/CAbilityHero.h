@@ -22,7 +22,7 @@ public:
     int field_98;
     float primaryAttributeValue;
     int field_A0;
-    float extraHealth;
+    float bonusHealth;
     int baseAgility;
     int field_AC;
     float bonusArmor;
