@@ -20,7 +20,7 @@ public:
     int unallocatedSkillPoints;
     int baseStrength;
     int field_98;
-    float primaryAttributeValue;
+    float field_9C;    //Mimics value of main attribute
     int field_A0;
     float bonusHealth;
     int baseAgility;
