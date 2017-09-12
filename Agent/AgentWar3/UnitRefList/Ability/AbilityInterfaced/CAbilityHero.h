@@ -16,26 +16,26 @@ public:
     int field_80;
     int field_84;
     int field_88;
-    int heroExperience;
-    int heroUnallocatedSkillPoints;
-    int heroStartingStrength;
+    int experience;
+    int unallocatedSkillPoints;
+    int baseStrength;
     int field_98;
-    float heroPrimaryAttributeValue;
+    float primaryAttributeValue;
     int field_A0;
-    float heroExtraHealth;
-    int heroStartingAgility;
+    float extraHealth;
+    int baseAgility;
     int field_AC;
-    float heroArmor;
+    float bonusArmor;
     int field_B4;
     int field_B8;
     int field_BC;
     int field_C0;
     int field_C4;
-    float heroExtraMana;
-    int heroPrimaryAttribute;   //1=str 2=int 3=agi
-    float heroStrengthPerLevel;
-    float heroIntelligencePerLevel;
-    float heroAgilityPerLevel;
+    float bonusMana;
+    int primaryAttribute;   //1=str 2=int 3=agi
+    float strengthPerLevel;
+    float intelligencePerLevel;
+    float agilityPerLevel;
     int field_DC;
     int field_E0;
     int field_E4;
@@ -59,7 +59,7 @@ public:
     int field_12C;
     int field_130;
     int field_134;
-    int heroPortraitLocationID; //What order does this units portrait appear in upper left (read only)
+    int portraitLocationID; //What order does this units portrait appear in upper left (read only)
     int field_13C;
     int field_140;
 };
