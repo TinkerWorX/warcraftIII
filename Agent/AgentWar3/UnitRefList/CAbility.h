@@ -8,7 +8,7 @@ Class Size: 108  (48+60)
 */
 class CAbility : CUnitRefList {
 public:
-   CUnit* owner; // The CUnit that has the ability.
+    CUnit* owner; // The CUnit that has the ability.
     int abilityId; // The ability id.
     int field_38;
     int disableAbilityGui; //Makes the GUi buttons appear gray and unclickable
