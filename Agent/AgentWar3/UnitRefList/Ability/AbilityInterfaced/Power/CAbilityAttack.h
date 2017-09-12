@@ -15,17 +15,13 @@ public:
     int field_7C;
     int field_80;
     int field_84;
-    int field_88;
-    int field_8C;
+    int numberOfDice[2];
     int field_90;
-    int field_94;
-    int field_98;
+    int sidesPerDie[2];
     int field_9C;
-    int field_A0;
-    int field_A4;
+    int baseDamage[2];
     int field_A8;
-    int field_AC;
-    int field_B0;
+    int extraDamage[2];
     int field_B4;
     int field_B8;
     int field_BC;
@@ -42,8 +38,7 @@ public:
     int field_E8;
     int field_EC;
     int field_F0;
-    int field_F4;
-    int field_F8;
+    int attackType[2];    //enum AttackType 
     int field_FC;
     int field_100;
     int field_104;
@@ -68,24 +63,23 @@ public:
     int field_150;
     int field_154;
     int field_158;
-    int field_15C;
-    int field_160;
+    float attackCooldownTime[2];
     int field_164;
     int field_168;
-    int field_16C;
+    float animationDamagePoint1;
     int field_170;
     int field_174;
     int field_178;
-    int field_17C;
+    float animationBackswingPoint1;
     int field_180;
     int field_184;
     int field_188;
     int field_18C;
-    int field_190;
+    float animationDamagePoint2;
     int field_194;
     int field_198;
     int field_19C;
-    int field_1A0;
+    float animationBackswingPoint2;
     int field_1A4;
     int field_1A8;
     int field_1AC;
@@ -101,8 +95,8 @@ public:
     int field_1D4;
     int field_1D8;
     int field_1DC;
-    int field_1E0;
-    int field_1E4;
+    int field_1E0;   //Pointer to AOE damage attack 1
+    int field_1E4;   //Pointer to AOE damage attack 2
     int field_1E8;
     int field_1EC;
     int field_1F0;
@@ -115,8 +109,7 @@ public:
     int field_20C;
     int field_210;
     int field_214;
-    int field_218;
-    int field_21C;
+    int attackTargetsAllowed[2];   //Bitfield, Structs\\CAbilityAttackTargetsAllowed
     int field_220;
     int field_224;
     int field_228;
@@ -126,19 +119,19 @@ public:
     int field_238;
     int field_23C;
     int field_240;
-    int field_244;
+    float attackAquisitionRange;
     int field_248;
     int field_24C;
     int field_250;
     int field_254;
-    int field_258;
+    float attackRange1;
     int field_25C;
-    int field_260;
+    float attackRange2;
     int field_264;
     int field_268;
-    int field_26C;
+    float attackRangeMotionBuffert1;
     int field_270;
-    int field_274;
+    float attackRangeMotionBuffert2;
     int field_278;
     int field_27C;
     int field_280;

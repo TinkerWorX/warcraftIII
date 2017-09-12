@@ -9,7 +9,7 @@ Class Size: 228  (108+120)
 class CAbilityMove : CPower {
 public:
     int field_6C;
-    int field_70;
+    float movementSpeedBase;
     int field_74;
     int field_78;
     int field_7C;

@@ -11,9 +11,9 @@ public:
     CUnit* owner; // The CUnit that has the ability.
     int abilityId; // The ability id.
     int field_38;
-    int field_3C;
-    int field_40;
-    int field_44;
+    int disableAbilityGui; //Makes the GUi buttons appear gray and unclickable
+    int hideAbilityGui;    //Hides the GUI buttons
+    int field_44;          //Also disables GUI, making it appear gray
     int field_48;
     int field_4C;
     int field_50;

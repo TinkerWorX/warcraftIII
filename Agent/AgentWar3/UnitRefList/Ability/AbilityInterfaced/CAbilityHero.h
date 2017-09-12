@@ -17,25 +17,25 @@ public:
     int field_84;
     int field_88;
     int experience;
-    int skillPoints;
-    int strength; // assigned with the SetHeroStr native
+    int unallocatedSkillPoints;
+    int baseStrength;
     int field_98;
-    int field_9C;
+    float primaryAttributeValue;
     int field_A0;
-    int field_A4;
-    int agility; // assigned with the SetHeroAgi native
+    float bonusHealth;
+    int baseAgility;
     int field_AC;
-    int field_B0;
+    float bonusArmor;
     int field_B4;
     int field_B8;
-    int intelligence; // needs to be confirmed
+    int field_BC;
     int field_C0;
     int field_C4;
-    int field_C8;
-    int field_CC;
-    int field_D0;
-    int field_D4;
-    int field_D8;
+    float bonusMana;
+    int primaryAttribute;   //1=str 2=int 3=agi
+    float strengthPerLevel;
+    float intelligencePerLevel;
+    float agilityPerLevel;
     int field_DC;
     int field_E0;
     int field_E4;
@@ -59,7 +59,7 @@ public:
     int field_12C;
     int field_130;
     int field_134;
-    int field_138;
+    int portraitLocationID; //What order does this units portrait appear in upper left (read only)
     int field_13C;
     int field_140;
 };

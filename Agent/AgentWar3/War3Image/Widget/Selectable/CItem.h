@@ -20,7 +20,7 @@ public:
     int field_78;
     int field_7C;
     int userData;
-    int charges;
+    int itemChargesLeft;
     int field_88;
     int field_8C;
     int field_90;

@@ -20,7 +20,7 @@ public:
     int field_78;
     int field_7C;
     int field_80;
-    int field_84;
+    int field_84;    //On Hit Pointer To Self (CUnit)
     int field_88;
     int field_8C;
     int field_90;
@@ -31,7 +31,7 @@ public:
     int field_A4;
     int field_A8;
     int field_AC;
-    int field_B0;
+    float baseHealthRegen;  //Read only
     int field_B4;
     int field_B8;
     int field_BC;
@@ -40,11 +40,11 @@ public:
     int field_C8;
     int field_CC;
     int field_D0;
-    int field_D4;
+    float baseManaRegen;  //Read only
     int field_D8;
     int field_DC;
-    float defense;
-    int field_E4;
+    float defenseArmor;
+    int defenseArmorType;   //enumDefenseArmorType
     int field_E8;
     int field_EC;
     int field_F0;
@@ -114,23 +114,21 @@ public:
     void* heroAbility;
     void* buildAbility;
     void* inventoryAbility;
-    int field_1FC;
+    int movementType;
     int field_200;
     int field_204;
-    int field_208;
-    int field_20C;
-    int field_210;
+    float movementHeight;
+    float movementHeightMinimum;
+    float movementHeight2;
     int field_214;
     int field_218;
     int field_21C;
     int field_220;
     int field_224;
-    int field_228;
-    int field_22C;
-    int field_230;
-    int field_234;
-    int field_238;
-    int field_23C;
+    float projectileImpactZ;
+    float projectileImpactZSwimming;
+    Vector3 projectileLaunch;
+    float projectileLaunchZSwimming;
     int field_240;
     int field_244;
     int field_248;
@@ -149,9 +147,8 @@ public:
     int userData;
     int field_280;
     Vector3 position; // 12 bytes, [284, 288, 28C]
-    int field_290;
-    int field_294;
-    int field_298;
+    float rotation;
+    Vector2 rotationSinCos;
     int field_29C;
     int field_2A0;
     int field_2A4;
@@ -175,8 +172,8 @@ public:
     int field_2EC;
     int field_2F0;
     int field_2F4;
-    int field_2F8;
-    int field_2FC;
+    float animationRunSpeed;
+    float animationWalkSpeed;
     int field_300;
     int field_304;
     int field_308;
