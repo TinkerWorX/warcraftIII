@@ -19,13 +19,13 @@ public:
     int heroExperience;
     int heroLevel;
     int heroStartingStrength;
+    int field_98;
     float heroPrimaryAttributeValue;
+    int field_A0;
     float heroExtraHealth;
     int heroStartingAgility;
-    float heroArmor;
-    int field_A8;
     int field_AC;
-    int field_B0;
+    float heroArmor;
     int field_B4;
     int field_B8;
     int field_BC;
