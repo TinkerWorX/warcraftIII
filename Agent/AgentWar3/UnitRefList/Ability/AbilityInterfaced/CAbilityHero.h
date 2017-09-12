@@ -17,7 +17,7 @@ public:
     int field_84;
     int field_88;
     int heroExperience;
-    int heroLevel;
+    int heroUnallocatedSkillPoints;
     int heroStartingStrength;
     int field_98;
     float heroPrimaryAttributeValue;
