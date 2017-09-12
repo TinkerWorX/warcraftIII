@@ -109,9 +109,9 @@ public:
     int field_1DC; // Used to fetch additional abilities.
     int field_1E0; // Used to fetch additional abilities.
     int field_1E4;
-    CAbilityAttack* attackAbility;
-    CAbilityMove* moveAbility;
-    CAbilityHero* heroAbility;
+    void* attackAbility;
+    void* moveAbility;
+    void* heroAbility;
     void* buildAbility;
     void* inventoryAbility;
     int movementType;
