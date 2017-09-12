@@ -40,7 +40,7 @@ public:
     int field_E0;
     int field_E4;
     int field_E8;
-    int field_EC;
+    int suspendHeroExperience;
     int field_F0;
     int field_F4;
     int field_F8;
