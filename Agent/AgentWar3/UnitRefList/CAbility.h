@@ -17,7 +17,7 @@ public:
     int field_48;
     int field_4C;
     int field_50;
-   AbilDataCacheNode* data; // The ability data cache.
+    AbilDataCacheNode* data; // The ability data cache.
     int field_58;
     int field_5C;
     int field_60;
