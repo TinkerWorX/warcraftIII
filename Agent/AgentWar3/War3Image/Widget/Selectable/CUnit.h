@@ -1,6 +1,7 @@
 #include "Agent\AgentWar3\War3Image\Widget\CSelectable.h"
 #include "Agent\AgentWar3\War3Image\Widget\Selectable\CUnit_VTable.h"
 #include "Vector3.h"
+#include "Vector2.h"
 
 /*
 Class ID: +w3u
